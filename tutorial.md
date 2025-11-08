@@ -12,7 +12,7 @@ Components
 - Custom PCB
 - Case/Stand (totes optional!)
   
-Optional (for portabilitiy)
+Optional (for portability)
 - Lithium Coin Battery (2pc)
 - Battery Holder (2pc)
 
@@ -79,7 +79,9 @@ We can either wire them up manually by pressing "W" and dragging lines to each c
 
 *Note: the highlighted line is crossing the SDA and SCL connection to the GND pin. It does interfer with those wires, however we might want to keep it in mind in the future.*
 
-Or, use global tags to make our connections look cleaner:
+Or, use global tags (ctrl + L) to make our connections look cleaner. Global tags with the same name will be connected like this:
+
+<img width="1081" height="633" alt="image" src="https://github.com/user-attachments/assets/89b30e4e-1205-489e-b25d-c5be1f4bda35" />
 
 
 Either way is good and it's up to you!
@@ -88,7 +90,24 @@ Good job, we finished the schematic!
 
 # Step 2: Design the PCB
 
+Before we switch to our PCB editor, we have to assign footprints! Since we already downloaded the footprints, we just have to import them into our project.
 
+In the top right toolbar select "assign footprints".
+
+<img width="336" height="121" alt="image" src="https://github.com/user-attachments/assets/e2c71bf5-826b-4b89-8478-cf0eb81fb521" />
+
+You should be on this window now! 
+
+<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/a762f55c-84fd-49a0-be20-a148b7523bb7" />
+
+Naviagate to preferences and go to "Manage footprint libaries". We're going to do exactly what we did before by going to "Project specific libaries" and adding an already existing folder.
+
+It should look like this!
+<img width="1264" height="833" alt="image" src="https://github.com/user-attachments/assets/4c7d9fbb-cbac-46e3-802c-e036fea801f6" />
+
+*The file you will be downloading will be .KiCad_MOD file. However, you must select the folder that contains the file, not the file itself because it will not show up.*
+
+To assign footprints, select a row in the "Symbol: Footprint assignments" column.
 
 # Step 3: Firmware
 
