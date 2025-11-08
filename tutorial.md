@@ -68,7 +68,6 @@ By looking at both pinouts, the following table this should be our connections.
 |OLED|WeMos|
 |---|------|
 |VCC_IN|5V|
-|VCC_IN|5V|
 |SCL|D2|
 |SDA|D1|
 |GND|GND|
