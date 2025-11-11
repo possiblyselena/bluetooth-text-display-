@@ -106,7 +106,21 @@ It should look like this!
 
 *The file you will be downloading will be .KiCad_MOD file. However, you must select the folder that contains the file, not the file itself because it will not show up.*
 
-To assign footprints, select a row in the "Symbol: Footprint assignments" column.
+To assign footprints, select a row in the "Symbol: Footprint assignments" column and search your library on the right side. It should pop up on the left column and double-click to assign. Repeat with your other part.
+<img width="1112" height="129" alt="image" src="https://github.com/user-attachments/assets/6bd62d21-98d1-44fe-859d-73bb86a56325" />
+
+Let's save and then switch the other PCB editor, at the top you can "Update PCB from Schematc" and click to place down your parts.
+<img width="997" height="707" alt="image" src="https://github.com/user-attachments/assets/c7456c55-6989-4d6d-a308-feca3b29d035" />
+
+Now this is where you get creative! Use "r" to rotate and "f" to flip your parts in whatever way you like. Afterwards, switch your layer to "Edge.Cuts" and create the shape of your board. I highly encourage you to mess around with some of the tools to see what shapes you can make! This is what mine looks like and my WeMos is flipped to the back.
+
+<img width="1059" height="663" alt="image" src="https://github.com/user-attachments/assets/8ce9db4b-4326-486e-875c-d436901986d1" />
+
+Now let's route our connections by pressing "w" and follow the blue rat lines by clicking a connection. Follow it to the next whole a repeat for your next 3 connections. Mine isn't the prettiest, but it will get the job done!
+
+<img width="777" height="553" alt="image" src="https://github.com/user-attachments/assets/56413cc5-00df-4ca5-90e5-412a9c040a98" />
+
+This is perfectly fine but I want to personalize mine a bit more. I added my name, a couple of graphics to make it my project!
 
 # Step 3: Firmware
 
