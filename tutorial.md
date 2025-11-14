@@ -122,6 +122,14 @@ Now let's route our connections by pressing "w" and follow the blue rat lines by
 
 This is perfectly fine but I want to personalize mine a bit more. I added my name, a couple of graphics to make it my project!
 
+<img width="962" height="615" alt="image" src="https://github.com/user-attachments/assets/20396e15-9d27-487d-85bb-e895692b76bd" />
+<img width="706" height="538" alt="image" src="https://github.com/user-attachments/assets/418fbc5f-d68a-43b4-b247-b68ed7148b32" />
+
+Ta-da! You're PCB is done!
+
 # Step 3: Firmware
+At this stage, you have creative freedom for whatever you want - make cool shapes appear, tell a short story, or communicate with the screen with Wifi or Bluetooth - (and I'm going to use Bluetooth)
+
+Install Arduino IDE and go to Tools > Board > Boards Manager and search up esp32. Our WeMos board uses that chip and we'll find our exact model under here. Once installed, go back to Board > esp32 > WEMOS D1 MINI ESP32. This is our board! 
 
 # Step 4: Designing your case (Optional)
